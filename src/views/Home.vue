@@ -33,6 +33,8 @@
             </a>
         </Section4>
         <NewsLetter />
+        <Section5 />
+        <Footer />
     </div>
 </template>
 
@@ -42,4 +44,6 @@
     import Section3 from '@/views/astrofirstpage/Section3.vue';
     import Section4 from '@/views/astrofirstpage/Section4.vue';
     import NewsLetter from '@/views/astrofirstpage/NewsLetter.vue';
+    import Section5 from '@/views/astrofirstpage/Section5.vue';
+    import Footer from '@/components/Footer.vue'
 </script>
