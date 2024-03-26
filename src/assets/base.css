@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* 
@@ -37,6 +38,7 @@ body{
 /* closed */
 
 /* section2 */
+
   .section2-I{
     @apply h-screen w-full relative overflow-hidden bg-[#171717];
   }
@@ -69,7 +71,24 @@ body{
 
 /* closed */
 
-/* global use */
+/* section3-I */
+ .section3-I{
+    @apply bg-[#f1f1f1]
+ }
+ .section3-II{
+    @apply relative px-5 h-screen flex gap-y-20 lg:gap-y-0 justify-start lg:justify-center items-start lg:items-center overflow-hidden
+ }
 
+ .section3-img{
+    @apply absolute bottom-0 left-[10%] lg:left-0 w-[80%] md:w-auto lg:w-auto
+ }
+
+ .section3-I-a{
+    @apply flex justify-center items-center mx-auto;
+ }
+
+/* closed */
+
+/* section4-I */
 
 /* closed */
