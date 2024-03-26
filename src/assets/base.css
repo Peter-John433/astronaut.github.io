@@ -80,7 +80,7 @@ body{
  }
 
  .section3-img{
-    @apply absolute bottom-0 left-[10%] lg:left-0 w-[80%] md:w-auto lg:w-auto
+    @apply absolute bottom-0 left-[10%] lg:left-0 w-[80%] md:w-auto lg:w-auto;
  }
 
  .section3-I-a{
@@ -90,5 +90,21 @@ body{
 /* closed */
 
 /* section4-I */
+.section4-I{
+  @apply px-5 py-20;
+} 
+.section4-II{
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5;
+}
 
+.section4-home-1{
+   @apply bg-white rounded-lg h-[400px] mb-5 drop-shadow-sm hover:shadow-md transition-all ease-in-out duration-300;
+}
+.section4-home-img{
+  @apply w-[50%] h-[150px] object-cover block mx-auto;
+}
+
+.section4-home-title-name{
+  @apply text-xl lg:text-2xl capitalize text-[#171717] font-semibold mb-4;
+}
 /* closed */
