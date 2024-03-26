@@ -32,6 +32,7 @@
                 </div>
             </a>
         </Section4>
+        <NewsLetter />
     </div>
 </template>
 
@@ -40,4 +41,5 @@
     import Section2 from '@/views/astrofirstpage/Section2.vue';
     import Section3 from '@/views/astrofirstpage/Section3.vue';
     import Section4 from '@/views/astrofirstpage/Section4.vue';
+    import NewsLetter from '@/views/astrofirstpage/NewsLetter.vue';
 </script>
