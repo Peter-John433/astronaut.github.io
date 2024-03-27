@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Header />
         <Section1 />
         <section2 />
         <Section3 />
@@ -39,6 +40,7 @@
 </template>
 
 <script setup>
+    import Header from '@/components/Header.vue';
     import Section1 from '@/views/astrofirstpage/Section1.vue';
     import Section2 from '@/views/astrofirstpage/Section2.vue';
     import Section3 from '@/views/astrofirstpage/Section3.vue';
