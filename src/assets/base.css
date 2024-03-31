@@ -19,11 +19,11 @@ body{
 
 /* section 1 */
 .section-I{
-   @apply h-screen bg-gray-50 w-full flex flex-col lg:flex-row justify-center items-center;
+   @apply bg-gray-50 w-full flex flex-col lg:flex-row justify-center items-center;
 }
 
 .section-II{
-   @apply flex flex-col lg:flex-row justify-center gap-x-10 items-center px-5 sm:px-0 py-20 w-full;
+   @apply flex flex-col lg:flex-row justify-center gap-x-10 items-center px-5 sm:px-0 py-10 lg:py-20 w-full;
 }
 .text-headings{
    @apply text-2xl text-center lg:text-start sm:text-3xl lg:text-5xl font-bold uppercase text-[#303134]
