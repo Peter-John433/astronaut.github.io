@@ -42,7 +42,8 @@ body{
 }
 
 .section-II{
-   @apply flex flex-col lg:flex-row justify-center gap-x-10 items-center px-5 sm:px-0 pt-20 pb-10 lg:py-20 lg:h-screen  w-full;
+   @apply flex flex-col lg:flex-row justify-center gap-x-10 items-center px-5 sm:px-0 pt-10 lg:pt-0 h-screen  w-full;
+   /* pt-36 pb-20 lg:py-20 lg: */
 }
 .text-headings{
    @apply text-2xl text-center lg:text-start sm:text-3xl lg:text-5xl font-bold uppercase text-[#303134]
