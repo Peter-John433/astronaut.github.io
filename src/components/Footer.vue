@@ -36,7 +36,7 @@
                         <a href="#">Policy</a>
                     </div>
                 </div>
-                <div>
+                <div class="mt-5 lg:mt-0">
                     <div class="text-xl font-semibold text-orange-500">
                         Contacts
                     </div>

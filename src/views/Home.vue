@@ -1,6 +1,6 @@
 <template>
     <div>
-        <!-- <Header /> -->
+        <Header />
         <Section1 />
         <section2 />
         <Section3 />
