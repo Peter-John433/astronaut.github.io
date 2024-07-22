@@ -80,11 +80,11 @@
         url: '#profile'
     },
 
-    {
-        navName : 'application',
-        id: 4,
-        url: '#application'
-    },
+    // {
+    //     navName : 'application',
+    //     id: 4,
+    //     url: '#application'
+    // },
 
     {
         navName : 'company',

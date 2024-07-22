@@ -29,7 +29,7 @@ body{
  }
 
  .ul-cont{
-   @apply flex flex-col lg:flex-row justify-start lg:justify-center items-start lg:items-center absolute lg:relative top-[150%] lg:top-0 left-0 w-full bg-[#0d0d0d]
+   @apply flex flex-col lg:flex-row justify-start lg:justify-center items-start lg:items-center absolute lg:relative top-[145%] lg:top-0 left-0 w-full bg-[#0d0d0d] lg:bg-inherit
  }
 
  .li-a-link{
